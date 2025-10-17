@@ -17,6 +17,6 @@ provider "azurerm" {
  features {}
 }
 resource "azurerm_resource_group" "rg" {
- name = "rg-demo"
- location = "Switzerland North"
+ name = "rg-collab-demo"
+ location = "France Central"
 }
